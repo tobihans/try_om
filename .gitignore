@@ -1,0 +1,13 @@
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.pyc
+
+# temp files
+*.py~
+*/*.py~
+*~
+*/*~
+.DS_Store
+

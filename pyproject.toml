@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "try-om"
+version = "0.1.0"
+description = ""
+authors = ["tobihans <learningway403@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "try_om" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.11"
+redis-om = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
